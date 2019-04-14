@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DuctAndPipeSnapper</Text>
+    <Description>Some description for DuctAndPipeSnapper</Description>
+    <Assembly>DuctAndPipeSnapper.dll</Assembly>
+    <FullClassName>DuctAndPipeSnapper.Command</FullClassName>
+    <ClientId>7dacf577-3aa9-4a46-9190-ad3207c1946b</ClientId>
+    <VendorId>Mohamed ElSayed Mohib, mohamedesayedmohsen@gmail.com</VendorId>
+       <VendorDescription>Civil Informatics Engineer</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DuctAndPipeSnapper</Name>
+    <Assembly>DuctAndPipeSnapper.dll</Assembly>
+    <FullClassName>DuctAndPipeSnapper.App</FullClassName>
+    <ClientId>159ec98c-7c7b-43e0-a3f2-fddf603dda03</ClientId>
+    <VendorId>Mohamed ElSayed Mohib, mohamedesayedmohsen@gmail.com</VendorId>
+        <VendorDescription>Civil Informatics Engineer</VendorDescription>
+  </AddIn>
+</RevitAddIns>
